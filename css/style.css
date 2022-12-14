@@ -11794,6 +11794,7 @@ h5,
   color: #fff;
   padding-top: .7rem;
   padding-bottom: .7rem;
+  font-family: "Great Vibes", cursive;
 }
 
 .ftco-navbar-light .navbar-brand:hover,
@@ -12045,7 +12046,7 @@ h5,
 }
 
 .navbar-brand {
-  font-weight: 900;
+  font-weight: 500;
   font-size: 24px;
 }
 
@@ -12167,8 +12168,9 @@ h5,
 }
 
 .video-hero .text h1 {
-  font-family: "Great Vibes", cursive;
-  font-size: 9vw;
+  font-family: "Great Vibes",
+    cursive;
+  font-size: 7vw;
   color: #fff;
 }
 
@@ -12401,6 +12403,10 @@ textarea.form-control {
   z-index: 0;
 }
 
+.ftco-about .wrap img {
+  margin-left: 40px;
+}
+
 .ftco-about .wrap:before {
   position: absolute;
   top: 40px;
@@ -12434,10 +12440,7 @@ textarea.form-control {
 }
 
 .ftco-about .subheading {
-  font-weight: 700;
   display: block;
-  text-transform: uppercase;
-  font-family: "Libre Caslon Text", serif;
 }
 
 .ftco-about h2 {
@@ -12693,6 +12696,7 @@ textarea.form-control {
 .timeline-body>p,
 .timeline-body>ul {
   margin-bottom: 0;
+  font-style: italic;
 }
 
 .timeline-body>p+p {
@@ -12932,13 +12936,13 @@ textarea.form-control {
 }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 5em 0;
   position: relative;
 }
 
 @media (max-width: 767.98px) {
-  .ftco-section {
-    padding: 6em 0;
+  home {
+    padding: 5em 0;
   }
 }
 
@@ -13984,13 +13988,18 @@ textarea.form-control {
   }
 }
 
+.hero-banner {
+  height: 100vh;
+  background-image: url(../images/Brett-Maria.jpg);
+  background-size: cover;
+  background-position: top center;
+}
 
 
 /* ========================== */
 
 .things-to-do p {
-  font-size: 20px;
-  color: #444;
+  font-size: 17px;
 }
 
 .things-to-do ul li {
@@ -13998,13 +14007,27 @@ textarea.form-control {
 }
 
 .things-to-do ul li a {
-  font-size: 20px;
+  font-size: 17px;
   color: #009688;
 }
 
 .things-to-do ul {
   padding: 0;
   margin: 0;
+}
+
+.our-story {
+  font-size: 90px;
+  font-weight: normal;
+  font-family: "Great Vibes", cursive;
+  color: #f67e7d;
+  text-align: center;
+}
+
+.registry-img {
+  margin-left: 0 !important;
+  margin-right: 30px;
+  width: 90%;
 }
 
 @media (max-width: 576px) {
@@ -14026,7 +14049,46 @@ textarea.form-control {
   }
 
   .things-to-do p {
-    font-size: 18px;
+    font-size: 14px;
     padding: 30px 0px;
   }
+
+  .ftco-about .wrap img {
+    margin-top: 55px;
+    width: 80%;
+    margin-left: 32px;
+  }
+
+  .our-story {
+    font-size: 50px;
+  }
+
+  .bg-section .overlay-top {
+    height: 150px;
+  }
+
+  .bg-section .overlay-bottom {
+    height: 150px;
+  }
+
+  .registry-img {
+    margin-left: 32px !important;
+    margin-top: 10px !important;
+    margin-bottom: 55px;
+  }
+
+  .hero-banner {
+    height: 80vh;
+    background-position: 32% center;
+  }
+
+  .video-hero .text h1 {
+    font-size: 11vw;
+  }
+
+  .things-to-do ul li a {
+    font-size: 14px;
+  }
+
+
 }
